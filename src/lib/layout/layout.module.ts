@@ -5,6 +5,7 @@ import { McContentComponent } from './content.component';
 import { McFooterComponent } from './footer.component';
 import { McHeaderComponent } from './header.component';
 import { McLayoutComponent } from './layout.component';
+import { McSidebarComponent } from './sidebar.component';
 
 
 @NgModule({
@@ -13,13 +14,15 @@ import { McLayoutComponent } from './layout.component';
         McLayoutComponent,
         McContentComponent,
         McFooterComponent,
-        McHeaderComponent
+        McHeaderComponent,
+        McSidebarComponent
     ],
     declarations: [
         McLayoutComponent,
         McContentComponent,
         McFooterComponent,
-        McHeaderComponent
+        McHeaderComponent,
+        McSidebarComponent
     ]
 })
 export class McLayoutModule {

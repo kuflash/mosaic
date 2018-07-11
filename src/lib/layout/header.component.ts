@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector : 'nz-header',
+    selector : 'mc-header',
     preserveWhitespaces: false,
     templateUrl: './header.component.html',
     styles: [
