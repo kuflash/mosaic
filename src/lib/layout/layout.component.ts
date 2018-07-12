@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
 
 
 @Component({
@@ -9,7 +9,9 @@ import { Component } from '@angular/core';
     host: {
         '[class.mc-layout]': 'true',
         '[class.mc-layout-has-sidebar]': 'hasSidebar'
-    }
+    },
+    encapsulation: ViewEncapsulation.None,
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class McLayoutComponent {
     hasSidebar = false;

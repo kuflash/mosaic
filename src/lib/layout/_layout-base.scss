@@ -12,8 +12,8 @@
     &-has-sidebar {
         flex-direction: row;
 
-        > .mc,
-        > .mc-content {
+        > .mc-layout,
+        > .mc-layout-content {
             overflow-x: hidden;
         }
     }

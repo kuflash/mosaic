@@ -1,0 +1,31 @@
+@import '../../lib/core/theming/prebuilt/default-theme';
+
+:host {
+    text-align: center;
+}
+
+:host ::ng-deep .mc-layout-header,
+:host ::ng-deep .mc-layout-footer {
+    background: #7dbcea;
+    color: #fff;
+}
+
+:host ::ng-deep .mc-layout-sidebar {
+    background: #3ba0e9;
+    color: #fff;
+}
+
+:host ::ng-deep .mc-layout-content {
+    background: rgba(16, 142, 233, 1);
+    color: #fff;
+    min-height: 120px;
+}
+
+:host > ::ng-deep .mc-layout {
+    // only for margins between examples
+    margin-bottom: 48px;
+}
+
+:host ::ng-deep .mc-layout:last-child {
+    margin: 0;
+}
