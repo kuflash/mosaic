@@ -3,6 +3,10 @@
 @import '../../lib/core/visual/body';
 @import '../../lib/core/theming/prebuilt/default-theme';
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
 .mc-layout-header,
 .mc-layout-footer {
     background: #7dbcea;
