@@ -1,4 +1,14 @@
-import { Component, EventEmitter, Host, HostBinding, Input, OnInit, Optional, Output } from '@angular/core';
+import {
+    ChangeDetectionStrategy,
+    Component,
+    EventEmitter,
+    Host,
+    HostBinding,
+    Input,
+    OnInit,
+    Optional,
+    Output
+} from '@angular/core';
 import { toBoolean } from '@ptsecurity/mosaic/core';
 
 import { McLayoutComponent } from './layout.component';
@@ -8,9 +18,10 @@ import { McLayoutComponent } from './layout.component';
     selector: 'mc-sidebar',
     preserveWhitespaces: false,
     templateUrl: './sidebar.component.html',
-    host               : {
+    host: {
         '[class.mc-layout-sidebar]': 'true'
-    }
+    },
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class McSidebarComponent implements OnInit {
 
