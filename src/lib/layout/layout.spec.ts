@@ -19,7 +19,7 @@ describe('Layout', () => {
         let headers;
         let contents;
         let footers;
-        let siders;
+        let sidebars;
         let layouts;
 
         beforeEach(async(() => {
@@ -38,7 +38,7 @@ describe('Layout', () => {
             headers = fixture.debugElement.queryAll(By.directive(McHeaderComponent));
             contents = fixture.debugElement.queryAll(By.directive(McContentComponent));
             footers = fixture.debugElement.queryAll(By.directive(McFooterComponent));
-            siders = fixture.debugElement.queryAll(By.directive(McSidebarComponent));
+            sidebars = fixture.debugElement.queryAll(By.directive(McSidebarComponent));
             layouts = fixture.debugElement.queryAll(By.directive(McLayoutComponent));
         });
 
@@ -51,13 +51,14 @@ describe('Layout', () => {
 
             expect(footers.every((footer) =>
                 footer.nativeElement.classList.contains('mc-layout-footer'))).toBe(true);
-            expect(siders.every((sidebar) =>
+            expect(sidebars.every((sidebar) =>
                 sidebar.nativeElement.classList.contains('mc-layout-sidebar'))).toBe(true);
 
             const matchToCSS = 'flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;';
-            expect(siders.every((sidebar) =>
+            expect(sidebars.every((sidebar) =>
                 sidebar.nativeElement.style.cssText === matchToCSS)).toBe(true);
 
+            /* tslint:disable:no-magic-numbers */
             expect(layouts[ 2 ].nativeElement.classList.contains('mc-layout-has-sidebar')).toBe(true);
             expect(layouts[ 4 ].nativeElement.classList.contains('mc-layout-has-sidebar')).toBe(true);
             expect(layouts[ 5 ].nativeElement.classList.contains('mc-layout-has-sidebar')).toBe(true);
