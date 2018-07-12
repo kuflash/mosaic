@@ -9,6 +9,10 @@
         box-sizing: border-box;
     }
 
+    &-content {
+        flex: auto;
+    }
+
     &-has-sidebar {
         flex-direction: row;
 
@@ -18,31 +22,23 @@
         }
     }
 
-    &-content {
-        flex: auto;
-    }
-
     &-header,
     &-footer {
         flex: 0 0 auto;
     }
 
     &-header {
-        background: deepskyblue;
         padding: 0 50px;
         height: 64px;
     }
 
     &-footer {
-        background: forestgreen;
         padding: 24px 50px;
     }
 
     &-sider {
         transition: all 0.2s;
         position: relative;
-
-        background: red;
 
         min-width: 0;
 
