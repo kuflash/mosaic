@@ -148,7 +148,8 @@
         "server-dev:badge": "npm run server-dev -- --env.component badge",
         "server-dev:checkbox": "npm run server-dev -- --env.component checkbox",
         "server-dev:navbar": "npm run server-dev -- --env.component navbar",
-        "server-dev:skeleton": "npm run server-dev -- --env.component skeleton"
+        "server-dev:skeleton": "npm run server-dev -- --env.component skeleton",
+        "server-dev:layout": "npm run server-dev -- --env.component layout"
     },
     "lint-staged": {
         "linters": {
