@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { McIconModule } from '../../lib/icon';
-import { McLayoutModule } from '../../lib/layout';
+import { McLayoutModule } from '../../lib/skeleton';
 import { McNavbarModule } from '../../lib/navbar/';
 
 

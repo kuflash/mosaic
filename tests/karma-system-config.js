@@ -49,7 +49,7 @@ System.config({
         '@ptsecurity/cdk/scrolling': 'dist/packages/cdk/scrolling/index.js',
         '@ptsecurity/cdk/testing': 'dist/packages/cdk/testing/index.js',
 
-        '@ptsecurity/mosaic/layout': 'dist/packages/mosaic/layout/index.js',
+        '@ptsecurity/mosaic/skeleton': 'dist/packages/mosaic/skeleton/index.js',
         '@ptsecurity/mosaic/button': 'dist/packages/mosaic/button/index.js',
         '@ptsecurity/mosaic/core': 'dist/packages/mosaic/core/index.js',
         '@ptsecurity/mosaic/divider': 'dist/packages/mosaic/divider/index.js',

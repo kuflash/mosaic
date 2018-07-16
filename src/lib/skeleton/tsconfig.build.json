@@ -6,7 +6,7 @@
     "angularCompilerOptions": {
         "strictMetadataEmit": true,
         "flatModuleOutFile": "index.js",
-        "flatModuleId": "@ptsecurity/mosaic/layout",
+        "flatModuleId": "@ptsecurity/mosaic/skeleton",
         "skipTemplateCodegen": true,
         "fullTemplateTypeCheck": true
     }

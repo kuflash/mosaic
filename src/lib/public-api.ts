@@ -1,7 +1,7 @@
 
 export * from './version';
 
-export * from '@ptsecurity/mosaic/layout';
+export * from '@ptsecurity/mosaic/skeleton';
 export * from '@ptsecurity/mosaic/button';
 export * from '@ptsecurity/mosaic/core';
 export * from '@ptsecurity/mosaic/icon';
