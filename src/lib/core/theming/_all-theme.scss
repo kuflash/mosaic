@@ -11,6 +11,7 @@
 @import '../../navbar/navbar-theme';
 @import '../../input/input-theme';
 @import '../../form-field/form-field-theme';
+@import '../../modal/modal-theme';
 
 
 @mixin mosaic-theme($theme) {
@@ -26,4 +27,5 @@
     @include mc-navbar-theme($theme);
     @include mc-input-theme($theme);
     @include mc-form-field-theme($theme);
+    @include mc-modal-theme($theme);
 }
